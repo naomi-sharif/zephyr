@@ -1,0 +1,88 @@
+.header__nav
+{
+    background-color: $color-primary;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    font-size: .75rem;
+    font-weight: 300;
+    padding: .5rem 1rem;
+    align-items: center;
+}
+
+.header__item-1--mort {
+    padding-right: 1rem;
+}
+
+.header__contact {
+    padding-right: 1rem;
+}
+
+.header__item-2 {
+    display: flex;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+
+    &__item {
+        display: inline-block;
+    }
+
+    // &__item-link {
+    //     display: inline-block;
+    //     padding: 1rem;
+    // }
+}
+
+
+
+.header__menu--hamburger {
+    font-size: 1.1rem;
+}
+
+.header__menu--phone {
+    font-size: 1.1rem;
+}
+
+.header__search--section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+.header__search-input {
+    display: flex;
+}
+
+
+.search-icon {
+    background-color: $color-secondary;
+    padding: .6rem 2rem;
+    color: $color-white;
+
+}
+.header__banner {
+    margin-top: 2rem;
+}
+
+.search--box {
+    border-left: 1px solid $color-primary;
+    border-top: 1px solid $color-primary;
+    border-bottom: 1px solid $color-primary;
+    text-align: center;
+}
+
+.secondary-nav-container {
+    background-color: $color-gray;
+    margin-top: 1rem;
+}
+.secondary-nav__list {
+    margin: 0;
+    list-style-type: none;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+}

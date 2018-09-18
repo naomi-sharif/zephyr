@@ -1,0 +1,47 @@
+.link {
+
+    &:link,
+    &:visited,
+    &:hover {
+        text-decoration: none;
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    &--white {
+        color: $color-white;
+
+         &:hover {
+            color: $color-white;
+        }
+    }
+
+    &--black {
+        color: #212529;
+
+        &:hover {
+            color: #212529;
+        }
+    }
+}
+
+
+.link-icon {
+
+    &:link,
+    &:visited,
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+.link--underline {
+    &:link,
+    &:visited,
+    &:hover {
+        text-decoration: underline;
+    }
+
+}

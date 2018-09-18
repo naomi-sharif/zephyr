@@ -1,0 +1,127 @@
+//* DATES SECTION STYLING *//
+.dates-section {
+    background-color: rgb(250, 249, 249);
+    height: 100%;
+
+    &__heading {
+        text-align: center;
+        padding: 1.5rem 0 .5rem;
+        color: $color-secondary;
+    }
+
+    &__link {
+        display: block;
+        text-align: center;
+        color: $color-secondary;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        // margin-left: 15px;
+        list-style-type: none;
+
+        &-item {
+            padding: 1rem 0;
+
+            &-link {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.dates-section__list-item:nth-child(odd) {
+    background-color: white;
+}
+
+
+.dates-section__list-item:last-child {
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.dates-section__list-item-link::before {
+    content: "\2022";
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: $color-secondary;
+}
+
+.dates-section__list-item-link::after {
+    content: "\203A";
+    position: absolute;
+    right: 20px;
+}
+
+//* TWITTER SECTION STYLING *//
+
+.twitter-block {
+    background-color: white;
+    padding: .5rem;
+    height: 100%;
+
+    &-container {
+        background-color: rgb(250, 249, 249);
+        padding: .5rem;
+        height: 100%;
+    }
+
+    &__heading {
+        border-bottom: 1px solid $color-border;
+        text-align: center;
+        padding: .75rem 0;
+    }
+
+    &__username {
+        padding: 2rem 0;
+
+        &--color {
+        color: $color-secondary;
+        font-weight: bold;
+        }
+    }
+
+    &__tweet {
+        display: flex;
+
+        &-timestamp {
+            margin: 1rem 0;
+        }
+
+        &--second {
+            display: flex;
+        }
+    }
+}
+
+.twitter-block__tweet-date::before {
+    content:"\00f8";
+}
+
+
+.twitter-block__tweet-content {
+    border-bottom: 1px solid $color-border;
+}
+
+.twitter-block__tweet--second {
+    border-bottom: 1px solid $color-border;
+}
+
+ .twitter-block__tweet-post--image {
+     width: 100%;
+}
+
+.twitter-block__social-icon {
+    color: $color-secondary;
+    padding: 1rem .5rem;
+    display: inline-block;
+}
+
+.twitter-block__icon {
+    padding: 0 0.5rem;
+}
+
+
+.twitter-block__tweet-username {
+    margin-bottom: .5rem;
+}

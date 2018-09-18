@@ -1,0 +1,24 @@
+.caresole-container {
+    background-image: url(/images/caresole-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+
+    &__contents {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #103337;
+        font-weight: 300;
+        font-size: 2rem;
+        width: 100%;
+        letter-spacing: .1rem;
+        line-height: 1.2;
+    }
+}
+
+.caresole__title {
+    margin-bottom: 2rem;
+}

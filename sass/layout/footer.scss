@@ -1,0 +1,41 @@
+.section-footer {
+    background-color: $color-secondary;
+    padding: 2rem 0;
+
+    &__banner {
+        background-color: $color-gray;
+        text-align: center;
+        padding: 1rem 0;
+        color: $color-secondary
+    }
+
+    &__heading {
+        font-weight: 300;
+        letter-spacing: .1rem;
+    }
+
+    color: $color-white;
+}
+
+.social-media-icon {
+   &:hover,
+   &:visited,
+   &:link,
+   {
+       color: white;
+       padding: .5rem;
+   }
+}
+
+.footer__follow-us {
+    margin-top: 3rem;
+}
+
+
+.back-top-icon {
+    padding-left: 1rem;
+}
+
+.logo-2 {
+    width: 10rem;
+}

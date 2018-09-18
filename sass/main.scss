@@ -1,0 +1,24 @@
+/* BOOTSTRAP */
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* HELPERS */
+@import "helpers/variables";
+
+/* BASE STYLES */
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+/* COMPONENTS */
+@import "components/header-section";
+@import "components/caresole";
+@import "components/button";
+
+/* LAYOUT */
+@import "layout/card";
+@import "layout/section";
+@import "layout/footer";
+@import "layout/forms-section";
+@import "layout/services";
+@import "layout/section-news";
+@import "layout/section-events";

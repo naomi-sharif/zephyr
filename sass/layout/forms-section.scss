@@ -1,0 +1,62 @@
+.forms-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.poll-section {
+    background-color: $color-secondary;
+    padding: 1rem;
+    color: white;
+    font-weight: 300;
+
+    &__heading {
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 1rem;
+    }
+
+    &__form {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+}
+
+.newsletter-section {
+    border: 1px solid $color-secondary;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__heading {
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-input {
+            border: 1px solid $color-secondary;
+            padding: .5rem 2rem;
+        }
+    }
+}

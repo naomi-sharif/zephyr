@@ -1,0 +1,12 @@
+ .section {
+    margin-bottom: 3.5rem;
+
+     &--news {
+       background-color: rgb(250, 249, 249);
+       padding: 2rem 0;
+
+        &__block {
+            background-color: white;
+        }
+   }
+}
