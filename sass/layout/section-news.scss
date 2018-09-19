@@ -1,10 +1,10 @@
 .section-news__block {
     background-color: white;
-    padding: 2rem;
+    padding: 1.5rem 1rem;
 }
 .section-news__block--secondary {
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .section-news__block--container {
@@ -16,7 +16,7 @@
 
 .section-news__hero {
     background: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(0,0,0,.5)), url(/images/news-1.jpg);
-    padding: 6rem 10rem;
+    // padding: 6rem 10rem;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -28,10 +28,10 @@
     letter-spacing: .2rem;
     font-weight: 500;
     text-rendering: optimizeLegibility;
-    margin-top: 1.5rem;
+    // margin-top: 1.5rem;
     text-align: center;
     height: 200px;
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
 }
 
 .section-news__image {
@@ -54,8 +54,17 @@
     width: 100%;
 }
 
+.section-news__heading {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
-.test-class {
+.test--4 {
     background-color: white;
+    padding: 1.5rem 1rem;
+}
+
+.section-news__content {
     padding: 1rem;
+    margin: 0;
 }

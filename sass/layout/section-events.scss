@@ -7,6 +7,7 @@
         text-align: center;
         padding: 1.5rem 0 .5rem;
         color: $color-secondary;
+        text-transform: uppercase;
     }
 
     &__link {
@@ -70,6 +71,7 @@
         border-bottom: 1px solid $color-border;
         text-align: center;
         padding: .75rem 0;
+        text-transform: uppercase;
     }
 
     &__username {
@@ -79,6 +81,16 @@
         color: $color-secondary;
         font-weight: bold;
         }
+    }
+
+    &__icon {
+        padding: 0 0.5rem;
+    }
+
+    &__social-icon {
+        color: $color-secondary;
+        padding: 1rem .5rem;
+        display: inline-block;
     }
 
     &__tweet {
@@ -91,6 +103,18 @@
         &--second {
             display: flex;
         }
+
+        &-username {
+            margin-bottom: .5rem;
+        }
+
+        &-content {
+            border-bottom: 1px solid $color-border;
+        }
+
+        &--second {
+            border-bottom: 1px solid $color-border;
+        }
     }
 }
 
@@ -98,30 +122,6 @@
     content:"\00f8";
 }
 
-
-.twitter-block__tweet-content {
-    border-bottom: 1px solid $color-border;
-}
-
-.twitter-block__tweet--second {
-    border-bottom: 1px solid $color-border;
-}
-
  .twitter-block__tweet-post--image {
      width: 100%;
-}
-
-.twitter-block__social-icon {
-    color: $color-secondary;
-    padding: 1rem .5rem;
-    display: inline-block;
-}
-
-.twitter-block__icon {
-    padding: 0 0.5rem;
-}
-
-
-.twitter-block__tweet-username {
-    margin-bottom: .5rem;
 }

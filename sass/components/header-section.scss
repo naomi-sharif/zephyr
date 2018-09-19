@@ -1,5 +1,4 @@
-.header__nav
-{
+.header__nav {
     background-color: $color-primary;
     color: $color-white;
     display: flex;
@@ -30,13 +29,7 @@
     &__item {
         display: inline-block;
     }
-
-    // &__item-link {
-    //     display: inline-block;
-    //     padding: 1rem;
-    // }
 }
-
 
 
 .header__menu--hamburger {
@@ -50,7 +43,6 @@
 .header__search--section {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 1rem;
 }
 
 .header__search-input {
@@ -60,7 +52,7 @@
 
 .search-icon {
     background-color: $color-secondary;
-    padding: .6rem 2rem;
+    padding: .25rem 1rem;
     color: $color-white;
 
 }
@@ -72,13 +64,30 @@
     border-left: 1px solid $color-primary;
     border-top: 1px solid $color-primary;
     border-bottom: 1px solid $color-primary;
-    text-align: center;
+    padding: 0 4rem;
 }
 
 .secondary-nav-container {
     background-color: $color-gray;
     margin-top: 1rem;
 }
+
+.link--nav {
+    position: relative;
+}
+
+.link--nav:hover {
+    // color: $color-secondary;
+    transition: .2s ease-out;
+
+    &::before {
+        content: "";
+        color: pink;
+        height: 100%;
+        position: absoulte;
+    }
+}
+
 .secondary-nav__list {
     margin: 0;
     list-style-type: none;
@@ -86,3 +95,61 @@
     display: flex;
     justify-content: space-around;
 }
+
+.link--nav-pipe::after {
+    content: "\007C";
+   margin-left: 1rem;
+}
+
+.link--register::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+    margin-right: 1rem;
+}
+
+ .link--login::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f2f6";
+    margin-right: 1rem;
+ }
+
+ .link--contact::before {     // content: "";
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f095";
+    margin-right:  1rem;
+ }
+
+
+
+ /*NAV TEST*/
+
+ .nav-list__item {
+     position: relative;
+
+ }
+
+//  .link--nav:hover {
+//     color: $color-secondary;
+//  }
+
+ .nav-list__item:hover::after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-bottom: solid white 10px;
+    bottom: -22px;
+    content: "";
+    height: 0;
+    left: 50%;
+    bottom: -15%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+ }
+
+
+ .section-news__heading-secondary--color {
+     color: $color-secondary;
+     margin-top: 1rem;
+ }
+
+
+ .section-news__content {
+     padding: 0;
+ }

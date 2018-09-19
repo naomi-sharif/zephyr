@@ -1,8 +1,8 @@
-/* BOOTSTRAP */
-@import "node_modules/bootstrap/scss/bootstrap";
-
 /* HELPERS */
 @import "helpers/variables";
+
+/* BOOTSTRAP */
+@import "node_modules/bootstrap/scss/bootstrap";
 
 /* BASE STYLES */
 @import "base/base";
